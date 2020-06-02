@@ -6,3 +6,5 @@ const client = new Client();
 client.once('ready', () => console.log('Bot is ready!!!'));
 console.log('Reading messages...');
 client.on('message', msg => console.log(msg.content));
+
+client.login('TOKEN');
